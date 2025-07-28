@@ -17,4 +17,5 @@ Please store all three files in the folder: Works/Package_x.
 
 
 ==============================================================
-How to run them:
+
+You might have your satellite downloaded from Google Earth Engine (GEE) in a separated form, don't worry, there is a .exe to help you compile the data as a single .csv
