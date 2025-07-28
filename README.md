@@ -13,4 +13,8 @@ You can build your own CNN model with this project, all you need is:
 2. A boundary of your research area as .shp file.
 3. Presence data downloaded from GBIF.
 
-Please store all three files in the folder: wd/material.
+Please store all three files in the folder: Works/Package_x.
+
+
+==============================================================
+How to run them:
