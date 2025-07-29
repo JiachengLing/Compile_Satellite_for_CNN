@@ -54,7 +54,7 @@ python CNN_based_SDM.py --mode single --ratio 10 --boots 5
 
 Benchmark mode (multiple background ratios):
 ```bash
-python S3_CNN_based_SDM.py --mode benchmark --folder ./your_data --ratios 10,50,100 --boots 5
+python CNN_based_SDM.py --mode benchmark --folder ./your_data --ratios 10,50,100 --boots 5
 ```
 
 Expected input folder structure:
@@ -86,7 +86,7 @@ Functionality:
 
 ```
 YourProject/
-├── S3_CNN_based_SDM.py
+├── CNN_based_SDM.py
 ├── SELF_TEST_B4_RUN.py
 ├── IMAGE_CLIPPING.py
 ├── requirements.txt
