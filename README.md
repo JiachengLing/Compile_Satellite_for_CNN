@@ -39,8 +39,9 @@ pip install -r requirements_gui.txt
 ```
 
 ### Tip: For better compatibility on Windows, consider installing GDAL, geopandas etc. via Conda if pip fails:
-
+``` bash
 conda install -c conda-forge gdal geopandas pyproj shapely rasterio
+```
 
 ## Usage
 ### 1. CNN Model (CNN_based_SDM.py)
