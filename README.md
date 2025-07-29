@@ -26,14 +26,17 @@ venv\Scripts\activate       # Windows
 # source venv/bin/activate  # macOS/Linux
 
 pip install -r requirements.txt
+```
 
 ### Option 2: Full Install (All scripts including GUI tools)
 
+```bash
 python -m venv venv
 venv\Scripts\activate       # Windows
 # source venv/bin/activate  # macOS/Linux
 
 pip install -r requirements_gui.txt
+```
 
 ### Tip: For better compatibility on Windows, consider installing GDAL, geopandas etc. via Conda if pip fails:
 
