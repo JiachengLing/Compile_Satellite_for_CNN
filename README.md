@@ -8,7 +8,7 @@ This toolkit implements a **Convolutional Neural Network (CNN)** - based approac
 
 | Script                    | Function                                                                 |
 |---------------------------|--------------------------------------------------------------------------|
-| `S3_CNN_based_SDM.py`     | CNN training + prediction with ResNet-18 based SDM                       |
+| `CNN_based_SDM.py`        | CNN training + prediction with ResNet-18 based SDM                       |
 | `SELF_TEST_B4_RUN.py`     | Self-check + Fishnet grid builder + presence data assignment (GUI)      |
 | `IMAGE_CLIPPING.py`       | Raster mosaic & tile clipping tool via shapefile/fishnet (GUI)          |
 
