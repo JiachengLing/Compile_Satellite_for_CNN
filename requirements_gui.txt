@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+rasterio
+geopandas
+scikit-learn
+torch>=2.0
+torchvision
+tk
+pyproj
+shapely
