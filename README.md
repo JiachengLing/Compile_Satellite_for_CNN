@@ -11,11 +11,12 @@ You can build your own CNN model with this project, all you need is:
 
 1. A satellite map of your research area as .tiff file.
 2. A boundary of your research area as .shp file.
-3. Presence data downloaded from GBIF.
+3. Presence data downloaded from GBIF, as .csv file.
 
-Please store all three files in the folder: Works/Package_x.
+All data are expected to be stored under the same folder. In your input folder, you need to have:
+1. a .tiff/.tif file
+2. a .shp file
+3. a .csv file
 
+How to run them?
 
-==============================================================
-
-You might have your satellite downloaded from Google Earth Engine (GEE) in a separated form, don't worry, there is a .exe to help you compile the data as a single .csv
