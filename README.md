@@ -46,17 +46,24 @@ conda install -c conda-forge gdal geopandas pyproj shapely rasterio
 ### 1. CNN Model (CNN_based_SDM.py)
 
 Train SDM using image tiles + presence data:
+```bash
 python CNN_based_SDM.py --mode single --ratio 10 --boots 5
+```
+
 
 Benchmark mode (multiple background ratios):
+```bash
 python S3_CNN_based_SDM.py --mode benchmark --folder ./your_data --ratios 10,50,100 --boots 5
+```
 
+Expected input folder structure:
+```
 your_data/
 ├── tile_index.csv            ← includes SiteID, presence, minx, maxx...
 ├── 0012AB.tif                ← GeoTIFF tiles (one satellite image for each grid cell)
 ├── 0034XY.tif
 └── fishnet_with_SiteID.gpkg  ← (optional) spatial blocks for CV
-
+```
 
 ### 2. Self-check + Fishnet Builder (SELF_TEST_B4_RUN.py)
 Run before satellite map clipping to ensure:
@@ -75,6 +82,8 @@ Functionality:
 3. Export processed fishnet + tile_index.csv
 
 ## Project Folder Layout
+
+```
 YourProject/
 ├── S3_CNN_based_SDM.py
 ├── SELF_TEST_B4_RUN.py
@@ -83,6 +92,7 @@ YourProject/
 ├── requirements_gui.txt
 ├── install.bat / install.sh (optional)
 └── README.md
+```
 
 ## Authors
 This program implements a Convolutional Neural Network (CNN) based approach using ResNet-18, a widely used deep learning architecture originally developed for image recognition tasks.
